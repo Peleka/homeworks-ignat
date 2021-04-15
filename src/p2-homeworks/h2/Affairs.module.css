@@ -1,0 +1,12 @@
+.someClass {
+
+}
+
+.affairs {
+    width:400px ;
+}
+
+.affair {
+    display: flex;
+justify-content: space-between;
+}
