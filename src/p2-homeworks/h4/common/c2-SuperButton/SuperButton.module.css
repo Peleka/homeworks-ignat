@@ -1,5 +1,10 @@
 .default {
+    border-radius: 5px;
+}
 
+.default:disabled {
+
+    opacity: 0.5%;
 }
 
 .red {
