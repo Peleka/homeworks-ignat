@@ -6,3 +6,7 @@
 .item a.active {
     color: blue;
 }
+
+.wrapper {
+    display: flex;
+}
