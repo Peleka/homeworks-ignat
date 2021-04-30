@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/homeworks-ignat/static/css/main.70b71184.chunk.css",
+    "main.js": "/homeworks-ignat/static/js/main.83f0d7b1.chunk.js",
+    "main.js.map": "/homeworks-ignat/static/js/main.83f0d7b1.chunk.js.map",
+    "runtime-main.js": "/homeworks-ignat/static/js/runtime-main.4122a480.js",
+    "runtime-main.js.map": "/homeworks-ignat/static/js/runtime-main.4122a480.js.map",
+    "static/js/2.04a1ac18.chunk.js": "/homeworks-ignat/static/js/2.04a1ac18.chunk.js",
+    "static/js/2.04a1ac18.chunk.js.map": "/homeworks-ignat/static/js/2.04a1ac18.chunk.js.map",
+    "index.html": "/homeworks-ignat/index.html",
+    "static/css/main.70b71184.chunk.css.map": "/homeworks-ignat/static/css/main.70b71184.chunk.css.map",
+    "static/js/2.04a1ac18.chunk.js.LICENSE.txt": "/homeworks-ignat/static/js/2.04a1ac18.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4122a480.js",
+    "static/js/2.04a1ac18.chunk.js",
+    "static/css/main.70b71184.chunk.css",
+    "static/js/main.83f0d7b1.chunk.js"
+  ]
+}
