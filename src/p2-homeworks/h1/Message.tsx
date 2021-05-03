@@ -11,7 +11,7 @@ type MessageType = {
 function Message(props: MessageType) {
     return (
         <div className={s.wrapper}>
-                <img src={props.avatar} alt={'avatar'} className={s.avatar}/>
+            <img src={props.avatar} alt={'avatar'} className={s.avatar}/>
 
             <div className={s.angle}/>
             <div className={s.message}>

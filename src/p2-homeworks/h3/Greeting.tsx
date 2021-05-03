@@ -7,7 +7,7 @@ type GreetingPropsType = {
     addUser: () => void // need to fix any
     error: string // need to fix any
     totalUsers: number // need to fix any
-    onKeyPressAddUser: (e:KeyboardEvent<HTMLInputElement>) => void
+    onKeyPressAddUser: (e: KeyboardEvent<HTMLInputElement>) => void
 }
 
 // презентационная компонента (для верстальщика)

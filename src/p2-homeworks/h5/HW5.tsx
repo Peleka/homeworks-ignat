@@ -4,20 +4,12 @@ import Routes from './Routes'
 import {HashRouter} from "react-router-dom";
 
 function HW5() {
-    const [menuCollapsed, setMenuCollapsed] = useState<boolean>(false)
     return (
         <div>
             {/*в gh-pages лучше работает HashRouter*/}
             <HashRouter>
-
-            <Header
-                onChange={() => setMenuCollapsed(!menuCollapsed)}
-                collapsed={menuCollapsed}
-
-            />
-
-            <Routes/>
-
+                <Header/>
+                <Routes/>
             </HashRouter>
         </div>
     )
