@@ -13,7 +13,6 @@ export const Header = () => {
                     <NavLink to={PATH.JUNIOR} activeClassName={s.active}>junior</NavLink>
                     <NavLink to={PATH.JUNIOR_PLUS} activeClassName={s.active}>junior+</NavLink>
                 </div>
-
             </div>
         </div>
     )
