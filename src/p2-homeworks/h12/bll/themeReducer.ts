@@ -1,14 +1,26 @@
-const initState = {
+import {ActionCreatorType} from "../../h10/bll/store";
 
+const SET_THEME = "SET_THEME"
+
+
+const initState = {
+    theme: 'some' as string
 };
 
-export const themeReducer = (state = initState, action: any): any => { // fix any
+type InitialStateType = typeof initState;
+
+
+export const themeReducer = (state: InitialStateType = initState, action: ActionCreatorType): InitialStateType => {
     switch (action.type) {
-        case "": {
-            return state;
+        case SET_THEME: {
+            return {
+                ...state,
+                theme: action.theme
+            }
         }
-        default: return state;
+        default:
+            return state;
     }
 };
 
-export const changeThemeC = (): any => {}; // fix any
+export const changeThemeAC = (theme: string) => ({type: SET_THEME, theme} as const);
